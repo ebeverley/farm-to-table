@@ -111,7 +111,7 @@ h1{
 	padding: 2% 2% 5% 2%;
 }
 .middleBox{
-	padding:2% 2% 2% 2%;
+	padding:4% 2% 4% 2%;
 	display:flex;
 	justify-content: center;
 	align-items: center;
@@ -125,12 +125,17 @@ h1{
 	font-family: 'Open Sans Condensed', sans-serif;
 	color: white;
 	font-size: 2rem;
-	letter-spacing: 4px;
+	padding-bottom: 2%;
+	letter-spacing: 5px;
 	text-align: center;
 	line-height: 140%;
 }
 .middleBoxButton{
 	font-family: 'Catamaran', sans-serif;
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+	letter-spacing: .25px;
 	padding:2% 5% 2% 5%;
 	background-color: white;
 }
