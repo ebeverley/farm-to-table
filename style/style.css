@@ -3,6 +3,11 @@
    License: none (public domain)
 */
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Oswald:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@600&display=swap');
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -30,7 +35,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	border: 2px  solid black;
 	width: 100%;
 	height: auto;
 	background: url("././assets/background-img.png") no-repeat center center fixed; 
@@ -54,48 +58,83 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 nav{
 	width:100%;
 	display: flex;
 	justify-content: space-evenly;
 	flex-direction: row;
-	padding: 15% 2% 2% 2%;
-	border: 2px solid black;
+	padding: 5% 2% 3% 2%;
 
 }
 nav a{
 	text-decoration: none;
-
-	border: 2px solid blue;
+	font-family: 'Oswald', sans-serif;
+	padding:0.5% 1% .5% 1%;
+	letter-spacing: 3px;
+	color: white;
+	border: 3px solid transparent;
 	
 }
-nav a :hover{
-	border: 2px solid black;
+nav a:hover{
+	padding:0.5% 1% .5% 1%;
+	border: 3px solid white;
 }
 .topBanner{
-	padding: 2% 2% 2% 2%;
+	padding: 3% 3% .25% 3%;
+	margin: auto;
 	 display:flex;
 	 flex-direction: column;
  	justify-content: center;
 	align-items: center;
 }
 h1{
-	font-size: 4rem;
+	font-size: 6rem;
 	font-family: 'Vollkorn', serif;
-	letter-spacing: 15px;
-	padding: 2%;
-	width:40%;
+	letter-spacing: 20px;
+	padding: .5% 2% 1% 2%;
+	width:60%;
 	margin: auto;
-	border: 2px solid blue;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
 }
-
+.slogan{
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.5rem;
+	letter-spacing: 27px;
+	color: white;
+}
+.middleSection{
+	padding: 2% 2% 5% 2%;
+}
 .middleBox{
-	padding:2%;
+	padding:2% 2% 2% 2%;
 	display:flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	width:30%;
+	height:200px;
+	width:20%;
 	margin: auto;
-	border: 2px solid black;
+	border: 3px solid white;
+}
+.middleBoxText{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: white;
+	font-size: 2rem;
+	letter-spacing: 4px;
+	text-align: center;
+	line-height: 140%;
+}
+.middleBoxButton{
+	font-family: 'Catamaran', sans-serif;
+	padding:2% 5% 2% 5%;
+	background-color: white;
+}
+footer{
+	background-color: white;
+	padding: 8% 5% 5% 5%;
 }
