@@ -9,10 +9,33 @@
 <body>
     <header>
         <nav>
-            <a href="#">Home</a>
-            <a href="#">Produce</a>
-            <a href="#">Livestock</a>
-            <a href="#">Featured Sellers</a>
+            <div class ="dropdown">
+                <button><a class="homeBtn" href = '#'>Home</a></button>
+                <div class = "produceMenu">
+                    <button><a class= href = '#'>Produce</a></button>
+                    <ul>
+                        <li><a href="#">Vegetables</a></li>
+                        <li><a href="#">Fruit</a></li>
+                    </ul>
+                </div>
+                <div class = "livestockMenu">
+                    <button><a class= href = '#'>Livestock</a></button>
+                    <ul>
+                        <li><a href="#">Fowl</a></li>
+                        <li><a href="#">Pigs</a></li>
+                        <li><a href="#">Goats</a></li>
+                        <li><a href="#">Cattle</a></li>
+                        <li><a href="#">Horses</a></li>
+                    </ul>
+                </div>
+                <div class = "equipmentMenu">
+                    <button><a class= href = '#'>Equipment</a></button>
+                    <ul>
+                        <li><a href="#">Trailers</a></li>
+                        <li><a href="#">Tools</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
         <div class="topBanner">
             <span class="slogan">local homegrown agriculture</span>
@@ -21,8 +44,18 @@
     </header>
     <section class="middleSection">
         <div class="middleBox">
-            <p class="middleBoxText"> AN INNOVATED WAY TO CONNECT LOCAL FARMERS AND CONSUMERS </p>
-            <a class="middleBoxButton" href="#">EAT HEALTHY, SHOP LOCAL</a>
+            <div class="loginBox">
+                <h2>Login Here</h2>
+                    <form>
+                        <p>Username</p>
+                        <input type="text" name="" placeholder="Enter Username">
+                        <p>Password</p>
+                        <input type="password" name="" placeholder="Enter Password">
+                        <input type="submit" name="" placeholder="Log In"
+                        <a href="#">Lost Your Password</a><br>
+                    </form>
+            </div>
+            <p class="middleBoxText"> " Connecting South Georgia's Farmers To Local Consumers " </p>
         </div>
     </section>
     <footer>
