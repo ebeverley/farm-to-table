@@ -40,7 +40,7 @@ body {
 	line-height: 1;
 	width: 100%;
 	height: auto;
-	background: url("././assets/background-img.png") no-repeat center center fixed; 
+	background: url("././assets/background-img.jpg") no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -204,7 +204,7 @@ h1{
 	align-items: center;
 	flex-direction: row-reverse;
 	height:200px;
-	width:60%;
+	width:50%;
 	margin:auto;
 	background-color:#fffff7;
 	opacity: 0.8;
@@ -215,38 +215,75 @@ h1{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 30px;
+	padding-left: 20%;
+	padding-bottom: 5%;
 	
+}
+.avatarPhoto{
+	width: 57%;
+	height:20vh;
+	margin:auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-right: 30%;
+	padding-top:10%
+
+
 }
 h2{
 	font-family: 'Noto Serif', serif;
 	font-size: 2rem;
 }
-.loginBox p{
-	font-family: 'IM Fell DW Pica', serif;
-	font-size: 2rem;	
-	margin-top: 10px;	
+.loginBox a{
+	font-size: 1rem;	
+	margin-top: 5px;
+	margin-left: 5px;
+	text-decoration: none;	
+	color:black;
+}
+.loginBox a:hover{
+	border-bottom: 1px solid black;
+}
+.loginBox input[type = 'text']{
+margin-top: 1px;
+}
+.loginBox input[type = 'password']{
+margin-top: 15px;
+}
+.loginBox input[type = 'text'], .loginBox input[type = 'password']{
+	border:none;
+	width: 70%;
+	border-radius: 10px;
+	border-bottom: 1px solid #fff;
+	background: lightgrey;
+	outline:none;
+	height:40px;
+	font-size: 1.75rem;
+	color:white;
+}
+.loginBox input[type = 'submit']{
+	font-size: 1.5rem;
+	width:40%;
+	margin-top: 10px;
+	margin-left:16%;
+	border:none;
+	border-radius:5px;
+	background-color: lightgrey;
+	font-family: 'Vollkorn', serif;
 }
 .middleBoxText{
 	font-family: 'IM Fell DW Pica', serif;
 	color: black;
 	font-size: 2rem;
-	padding-bottom: 2%;
+	padding: 8% 5% 8% 5%;
 	letter-spacing: 5px;
 	text-align: center;
 	line-height: 140%;
 	width:50%;
+	border: 1px solid black;
 }
 
-.middleBoxButton{
-	font-family: 'Catamaran', sans-serif;
-	text-decoration: none;
-	color: black;
-	font-weight: bolder;
-	letter-spacing: .25px;
-	padding:2% 5% 2% 5%;
-	background-color: white;
-}
 footer{
 	background-color: white;
 	padding: 8% 5% 5% 5%;
@@ -254,12 +291,15 @@ footer{
 .produceMenu button:focus + ul{
 opacity: 1;
 pointer-events: all;
+
 }
 .livestockMenu button:focus + ul{
 	opacity: 1;
 	pointer-events: all;
+	
 }
 .equipmentMenu button:focus + ul{
 		opacity: 1;
 		pointer-events: all;
+		
 	}
